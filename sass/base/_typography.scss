@@ -1,0 +1,43 @@
+@use '../utils/index' as *;
+
+.bold {
+  font-family: $ff-heading;
+  font-weight: 700;
+}
+
+.btn-style {
+  font-family: $ff-heading;
+  font-weight: 700;
+}
+
+.sub {
+  font-family: $ff-body;
+  font-weight: 400;
+}
+
+.quote {
+  font-family: $ff-body;
+  font-weight: 700;
+}
+
+header a {
+  font-family: $ff-heading;
+  font-weight: 400;
+  font-size: 14;
+}
+
+.large {
+  font-size: 24px;
+}
+
+.med {
+  font-size: 14px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.smallest {
+  font-size: 10px;
+}

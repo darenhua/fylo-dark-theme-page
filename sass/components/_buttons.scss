@@ -1,0 +1,18 @@
+@use "../utils/index" as *;
+
+.btn-style {
+  border: none;
+  background: $clr-gradient;
+  border-radius: 50px;
+  color: $clr-txt;
+  font-family: $ff-body;
+  font-weight: 700;
+  min-width: 100px;
+  font-size: 14px;
+  &.wide {
+    padding: 10px 50px;
+  }
+  &.thin {
+    padding: 8px 20px;
+  }
+}

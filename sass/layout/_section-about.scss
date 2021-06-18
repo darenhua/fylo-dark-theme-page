@@ -1,0 +1,41 @@
+@use '../utils/index' as *;
+
+.productive {
+  display: flex;
+  justify-content: center;
+  & > div {
+    display: flex;
+    justify-content: center;
+    div {
+      align-self: center;
+      flex: 1 1 0;
+      & > img {
+        transform: scale(0.6);
+      }
+      h2 {
+        line-height: 1.2;
+        width: 200px;
+        margin-bottom: 15px;
+      }
+      p {
+        width: 410px;
+        margin-bottom: 10px;
+      }
+      a {
+        color: $clr-accent;
+        display: flex;
+        align-items: center;
+        width: 135px;
+        padding-bottom: 3px;
+        img {
+          display: inline-block;
+          margin-left: 8px;
+        }
+
+        &:hover {
+          border-bottom: 1px solid $clr-accent;
+        }
+      }
+    }
+  }
+}

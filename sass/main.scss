@@ -1,0 +1,16 @@
+//Global styles/resets
+@use "base/resets";
+@use "base/typography";
+//Specifically styled components
+@use "components/buttons";
+@use "components/card";
+@use "components/textbox";
+//Main layout
+@use "layout/bg";
+@use "layout/navbar";
+@use "layout/section-landing";
+@use "layout/section-grid";
+@use "layout/section-about";
+@use "layout/section-quotes";
+@use "layout/section-contact";
+@use "layout/footer";

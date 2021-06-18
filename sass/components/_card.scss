@@ -1,0 +1,47 @@
+@use "../utils/index" as *;
+
+.quotes {
+  .flex-container {
+    width: 25%;
+    border-radius: 5px;
+    padding: 30px 20px;
+    background: $clr-cards-bg;
+    color: $clr-txt;
+    div {
+      display: flex;
+      flex-direction: column;
+      .sub.small {
+        padding: 0px 20px 20px 0px;
+      }
+      .quote-user {
+        display: grid;
+        grid-template-columns: 0.15fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          "image Name"
+          "image Title";
+        img {
+          align-self: center;
+          grid-area: image;
+          width: 35px;
+          border-radius: 50%;
+        }
+        h5 {
+          display: block;
+          margin: 0;
+          align-self: end;
+          padding-left: 5px;
+          grid-area: Name;
+        }
+        p {
+          align-self: start;
+          grid-area: Title;
+          margin-top: 5px;
+          padding-left: 5px;
+          font-size: 8px;
+        }
+      }
+    }
+  }
+}

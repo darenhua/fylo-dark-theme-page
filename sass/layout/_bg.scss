@@ -1,0 +1,7 @@
+@use '../utils/index' as *;
+
+body {
+  min-height: 100vh;
+  background-color: $clr-section-bg;
+  color: $clr-txt;
+}

@@ -1,0 +1,21 @@
+//background colours
+$clr-body-bg: hsl(217, 28%, 15%);
+$clr-section-bg: hsl(218, 28%, 13%);
+$clr-footer-bg: hsl(216, 53%, 9%);
+$clr-cards-bg: hsl(219, 30%, 18%);
+
+//link colour
+$clr-accent: hsl(176, 68%, 64%);
+
+//btn colour
+$clr-gradient: linear-gradient(
+  90deg,
+  rgba(0, 212, 255, 1) 0%,
+  rgba(51, 158, 204, 1) 100%
+);
+
+//form error colour
+$clr-form-error: hsl(0, 100%, 63%);
+
+//text colour
+$clr-txt: hsl(0, 0%, 100%);

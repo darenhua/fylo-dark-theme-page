@@ -1,0 +1,33 @@
+@use '../utils/index' as *;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+  padding-top: 20px;
+  background-color: $clr-body-bg;
+  img {
+    align-self: center;
+    margin-left: 30px;
+    height: 35px;
+    &:hover {
+      filter: brightness(0) saturate(100%) invert(85%) sepia(10%)
+        saturate(2012%) hue-rotate(120deg) brightness(97%) contrast(87%);
+      cursor: pointer;
+    }
+  }
+  ul {
+    display: flex;
+    width: 220px;
+    justify-content: space-around;
+    padding: 0;
+    margin-right: 30px;
+    a {
+      color: $clr-txt;
+      &:hover {
+        color: $clr-accent;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.quotes {
+  position: relative;
+  height: 250px;
+  & > img {
+    position: absolute;
+    left: 110px;
+    top: -10px;
+    z-index: -1;
+  }
+  .quotes-container {
+    display: flex;
+    justify-content: center;
+    .flex-container {
+      margin: 20px;
+    }
+  }
+}
